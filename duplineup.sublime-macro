@@ -1,0 +1,61 @@
+[
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "hardbol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args": null,
+		"command": "sbp_set_mark"
+	},
+	{
+		"args":
+		{
+			"extend": true,
+			"to": "hardeol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args": null,
+		"command": "sbp_kill_ring_save"
+	},
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "hardbol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args": null,
+		"command": "paste"
+	},
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "hardbol"
+		},
+		"command": "move_to"
+	}
+]

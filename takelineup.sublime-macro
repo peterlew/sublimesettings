@@ -1,0 +1,33 @@
+[
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "hardbol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args": null,
+		"command": "sbp_kill_line"
+	},
+	{
+		"args": null,
+		"command": "sbp_kill_line"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"file": "Packages/User/dupline.sublime-macro"
+		},
+		"command": "run_macro_file"
+	}
+]

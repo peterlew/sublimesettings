@@ -1,0 +1,22 @@
+[
+	{
+		"args": null,
+		"command": "sbp_set_mark"
+	},
+	{
+		"args":
+		{
+			"extend": true,
+			"to": "hardbol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "sbp_set_mark"
+	}
+]

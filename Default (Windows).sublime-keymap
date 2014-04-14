@@ -1,0 +1,33 @@
+[
+    { "keys": [ "ctrl+," ], "command": "select_lines", "args": { "forward": false } },
+    { "keys": [ "ctrl+." ], "command": "select_lines", "args": { "forward": true  } },
+    { "keys": [ "ctrl+;" ], "command": "show_overlay", "args": { "overlay": "goto", "text": ":" } },
+    { "keys": [ "alt+,"  ], "command": "swap_line_up" },
+    { "keys": [ "alt+."  ], "command": "swap_line_down"},
+    { "keys": ["ctrl+o"], "command": "prompt_open_file" },
+    { "keys": [ "alt+n"  ], "command": "find_under_expand"},
+    { "keys": ["ctrl+y"], "command": "paste" },
+    { "keys": ["ctrl+shift+n"], "command": "new_file" },
+    { "keys": ["ctrl+shift+y"], "command": "sbp_yank_choice" },
+    { "keys": ["ctrl+x", "m"], "command": "save_macro" },
+    { "keys": ["ctrl+x", ","], "command": "run_macro_file", "args": {"file": "Packages/User/duplineup.sublime-macro"} },
+    { "keys": ["ctrl+x", "."], "command": "run_macro_file", "args": {"file": "Packages/User/dupline.sublime-macro"} },
+    { "keys": ["ctrl+x", "u"], "command": "run_macro_file", "args": {"file": "Packages/User/takelineup.sublime-macro"} },
+    { "keys": ["ctrl+x", "p"], "command": "run_macro_file", "args": {"file": "Packages/User/stealrestup.sublime-macro"} },
+    { "keys": ["ctrl+x", "n"], "command": "run_macro_file", "args": {"file": "Packages/User/stealrestdown.sublime-macro"} },
+    { "keys": ["ctrl+x", "d"], "command": "run_macro_file", "args": {"file": "Packages/User/deltolinebegin.sublime-macro"} },
+    { "keys": ["ctrl+x", "c"], "command": "run_macro_file", "args": {"file": "Packages/User/prependvis.sublime-macro"} },
+    { "keys": ["ctrl+x", "b"], "command": "run_macro_file", "args": {"file": "Packages/User/prependtime.sublime-macro"} },
+    // { "keys": ["ctrl+x", "ctrl+x"], "command": "none" },
+    { "keys": ["ctrl+x", "w"], "command": "none" },
+    { "keys": ["ctrl+w"], "command": "copy" },
+    { "keys": ["ctrl+h"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },    
+    { "keys": ["ctrl+shift+h"], "command": "replace_next" },
+    // { "keys": ["ctrl+t"], "command": "slurp_find_string" },
+    // { "keys": ["ctrl+r"], "command": "slurp_replace_string" },
+    { "keys": ["ctrl+x", "ctrl+w"], "command": "close" },
+    // Then they broke my sublemacs
+    { "keys": ["ctrl+/"], "command": "undo" },
+    { "keys": ["ctrl+x", "ctrl+s"], "command": "save" }
+]
+
